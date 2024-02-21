@@ -26,7 +26,7 @@ jobs:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: ${{ inputs.lessons || 5 }}
 
-      - name: Sleep for 20 seconds
+      - name: Sleep
         run: sleep 15
 
       - run: node index.js
@@ -34,39 +34,39 @@ jobs:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 6
 
-      - name: Sleep for 20 seconds
-        run: sleep 20
+      - name: Sleep
+        run: sleep 30
 
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 5
 
-      - name: Sleep for 20 seconds
-        run: sleep 14
+      - name: Sleep
+        run: sleep 40
 
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 6
 
-      - name: Sleep for 20 seconds
-        run: sleep 13
+      - name: Sleep
+        run: sleep 45
 
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 4
 
-      - name: Sleep for 20 seconds
-        run: sleep 16
+      - name: Sleep
+        run: sleep 23
 
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 5
 
-      - name: Sleep for 20 seconds
+      - name: Sleep
         run: sleep 17
 
       - run: node index.js
@@ -74,48 +74,128 @@ jobs:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 4
 
-      - name: Sleep for 20 seconds
-        run: sleep 18
+      - name: Sleep
+        run: sleep 34
 
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 3
 
-      - name: Sleep for 20 seconds
-        run: sleep 28
+      - name: Sleep
+        run: sleep 43
 
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 5
 
-      - name: Sleep for 20 seconds
-        run: sleep 20
+      - name: Sleep
+        run: sleep 54
 
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 6
 
-      - name: Sleep for 20 seconds
-        run: sleep 21
+      - name: Sleep
+        run: sleep 32
 
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 5
 
-      - name: Sleep for 20 seconds
-        run: sleep 20
+      - name: Sleep
+        run: sleep 38
 
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 4
 
-      - name: Sleep for 20 seconds
-        run: sleep 12
+      - name: Sleep
+        run: sleep 45
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 32
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 43
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 23
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 18
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 49
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 24
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 18
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 135
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 46
+
+      - run: node index.js
+        env:
+          DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
+          LESSONS: 6
+
+      - name: Sleep
+        run: sleep 37
 
       - run: node index.js
         env:
