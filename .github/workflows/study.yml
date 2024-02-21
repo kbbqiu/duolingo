@@ -1,13 +1,13 @@
 name: Do a Duolingo lesson
 
 on:
-  # workflow_dispatch:
-  #   inputs:
-  #     lessons:
-  #       default: 1
-  #       description: 'Number of lessons to be completed'
-  #       required: false
-  #       type: number
+  workflow_dispatch:
+    inputs:
+      lessons:
+        default: 1
+        description: 'Number of lessons to be completed'
+        required: false
+        type: number
   schedule:
     - cron: '3 3 * * *'
     # - cron: '0 7-8 * * *'
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repeat: [1,2,3,4,5]
+        repeat: [1,2,3,4,5,6,7,8,9,10]
     steps:
       - uses: actions/checkout@v4
 
