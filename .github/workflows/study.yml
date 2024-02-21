@@ -9,7 +9,7 @@ on:
   #       required: false
   #       type: number
   schedule:
-    - cron: '58 2 * * *'
+    - cron: '3 3 * * *'
     # - cron: '0 7-8 * * *'
 
 jobs:
